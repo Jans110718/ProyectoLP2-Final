@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String index() {
-        return "vistas/Usuario/Login"; // Ruta relativa al archivo HTML sin extensión
+        return "index"; // Ruta relativa al archivo HTML sin extensión
     }
 }
